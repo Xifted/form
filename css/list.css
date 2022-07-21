@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+ margin:0;
+ padding: 0;
+ outline: 0;
+ 
+}
+body{
+    height: 1000px;
+    background-color: wheat;
+}
+.header-background .header-profile{
+  position: absolute;
+  right: 120px;
+  top: 0;
+}
+.header-background .header-profile p{
+  font-size: 20px;
+  font-weight: bold;
+}
+.edit-delete #edit {
+    position: absolute;
+    top: -10px;
+    left: -10;
+    background-color: rgb(197, 110, 255);
+    border-radius: 8px;
+    border-style: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 25px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .edit-delete #edit:hover,
+  .edit-delete #edit:focus {
+    background-color: #F082AC;
+  }
+.edit-delete #delete {
+  background-color: rgb(197, 110, 255);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.edit-delete #delete:hover,
+.edit-delete #delete:focus{
+  background-color: #F082AC;
+}
+.table-list{
+  position: relative;
+  top: 30%;
+  left: 11%;
+}
+.table-list table{
+ z-index: 2;
+ left: 50%;
+ top: 400px;
+ /* transform: translate(-50%,-50%); */
+ width: 60%; 
+ border-collapse: collapse;
+ border-spacing: 0;
+ box-shadow: 0 2px 15px rgba(64,64,64,.7);
+ border-radius: 10px;
+ overflow: hidden;
+}
+.table-list td , .table-list th{
+ padding: 15px 20px;
+ text-align: center;
+}
+.table-list th{
+ background-color:#54a1e9;
+ color: #fafafa;
+ font-family: 'Open Sans',Sans-serif;
+ font-weight: 200;
+ text-transform: uppercase;
+}
+.table-list tr{
+ width: 100%;
+ background-color: #fafafa;
+ font-family: 'Montserrat', sans-serif;
+}
+.table-list tr:nth-child(even){
+ background-color: #eeeeee;
+}
